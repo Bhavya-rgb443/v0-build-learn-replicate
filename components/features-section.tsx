@@ -1,4 +1,4 @@
-import { Monitor, Settings as LucideSettings } from "lucide-react" // Added import { Store as tor } from "lucide-react" // Added import for LaptopIcon
+import { Settings as LucideSettings } from "lucide-react"
 
 function SettingsIcon({ className }: { className?: string }) {
   return (
