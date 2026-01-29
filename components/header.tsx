@@ -9,10 +9,16 @@ export function Header() {
           {/* Navigation */}
           <nav className="flex items-center gap-8">
             <a
-              href="#"
+              href="/"
               className="text-foreground hover:text-foreground/70 transition-colors"
             >
               Home
+            </a>
+            <a
+              href="/about"
+              className="text-foreground hover:text-foreground/70 transition-colors"
+            >
+              About
             </a>
             <a
               href="#features"
